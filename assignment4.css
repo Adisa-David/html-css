@@ -953,4 +953,93 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 1200px) {
 
+    .header {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .dropdowns {
+        display: none;
+    }
+
+    .dropdowns span {
+        padding: 0 6px;
+    }
+
+    .dropdowns button {
+        margin-left: 0;
+        width: 150px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .paragraphone {
+        font-size: 32px;
+        margin-top: 160px;
+    }
+
+    .thoughtbotlink {
+        font-size: 18px;
+    }
+
+    .feedsection {
+        flex-direction: column;
+    }
+
+    .morefeed {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .footersection {
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 20px;
+    }
+
+    .footercolumns {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .trademark {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .contactsandterms {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .thoughtbotheader {
+        font-size: 22px;
+    }
+
+    .paragraphone {
+        font-size: 26px;
+    }
+
+    .buttons button {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+
+    .emailinput {
+        width: 100%;
+    }
+
+    .subscribeform {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
